@@ -19,7 +19,7 @@ body {
     background-color: white;
     box-shadow: 0 0 20px black; }
     body #sect1 img.image {
-      height: 300px;
+      height: 25vw;
       margin-left: auto;
       margin-right: auto;
       width: 25vw;
@@ -34,37 +34,60 @@ body {
         border-radius: 50%;
         background-color: #1edd00;
         border-width: 0;
-        font-size: 50px; }
+        font-size: 3vw; }
+      body #sect1 #thumbform #thumb1:hover {
+        background-color: #D3D3D3; }
       body #sect1 #thumbform #thumb2 {
         margin-left: 17%;
         border-radius: 50%;
         background-color: #1edd00;
         border-width: 0;
-        font-size: 50px; }
+        font-size: 3vw; }
+      body #sect1 #thumbform #thumb2:hover {
+        background-color: #D3D3D3; }
     body #sect1 #refresh {
       border-radius: 50%;
       border-width: 0;
-      font-size: 20px; }
+      font-size: 20px;
+      background-color: #D3D3D3; }
     body #sect1 hr {
       margin-top: 10px;
       margin-bottom: 10px; }
     body #sect1 p {
       margin: 0 25%; }
 
-/* --------- PHONE ---------- */
-/*
-@media screen and (max-width: 1143px) {
-
-  img.image {
-    width: 200px;
-    height: 200px;
-  }
-
-}
-*/
-@media screen and (max-width: 856px) {
-  img.image {
+/* --------- MEDIA QUERIES ---------- */
+@media screen and (max-width: 1000px) {
+  body #sect1 img.image {
+    width: 24vw;
+    height: 24vw; } }
+@media screen and (max-width: 714px) {
+  body #sect1 img.image {
+    width: 23vw;
+    height: 23vw; } }
+@media screen and (max-width: 612px) {
+  body #sect1 img.image {
+    width: 22vw;
+    height: 22vw; } }
+@media screen and (max-width: 535px) {
+  body {
+    height: 500px; }
+    body #sect1 {
+      margin-top: 333px; }
+      body #sect1 img.image {
+        width: 21vw;
+        height: 21vw; } }
+@media screen and (max-width: 476px) {
+  body #sect1 img.image {
     width: 20vw;
     height: 20vw; } }
+@media screen and (max-width: 428px) {
+  body #sect1 img.image {
+    width: 19vw;
+    height: 19vw; } }
+@media screen and (max-width: 390px) {
+  body #sect1 img.image {
+    width: 18vw;
+    height: 18vw; } }
 
 /*# sourceMappingURL=Cats.css.map */

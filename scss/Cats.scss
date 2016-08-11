@@ -1,6 +1,7 @@
 @import "reset.css";
 $green: #1edd00;
 $black: #000000;
+$grey: #D3D3D3;
 body {
     text-align: center;
     margin: 0;
@@ -22,7 +23,7 @@ body {
         background-color: white;
         box-shadow: 0 0 20px black;
         img.image {
-            height: 300px;
+            height: 25vw;
             margin-left: auto;
             margin-right: auto;
             width: 25vw;
@@ -38,20 +39,27 @@ body {
                 border-radius: 50%;
                 background-color: $green;
                 border-width: 0;
-                font-size: 50px;
+                font-size: 3vw;
+            }
+            #thumb1:hover {
+                background-color: $grey;
             }
             #thumb2 {
                 margin-left: 17%;
                 border-radius: 50%;
                 background-color: $green;
                 border-width: 0;
-                font-size: 50px;
+                font-size: 3vw;
+            }
+            #thumb2:hover {
+                background-color: $grey;
             }
         }
         #refresh {
             border-radius: 50%;
             border-width: 0;
             font-size: 20px;
+            background-color: $grey;
         }
         hr {
             margin-top: 10px;
@@ -62,20 +70,76 @@ body {
         }
     }
 }
-/* --------- PHONE ---------- */
-/*
-@media screen and (max-width: 1143px) {
-
-  img.image {
-    width: 200px;
-    height: 200px;
-  }
-
+/* --------- MEDIA QUERIES ---------- */
+@media screen and (max-width: 1000px) {
+    body {
+        #sect1 {
+            img.image {
+                width: 24vw;
+                height: 24vw;
+            }
+        }
+    }
 }
-*/
-@media screen and (max-width: 856px) {
-    img.image {
-        width: 20vw;
-        height: 20vw;
+@media screen and (max-width: 714px) {
+    body {
+        #sect1 {
+            img.image {
+                width: 23vw;
+                height: 23vw;
+            }
+        }
+    }
+}
+@media screen and (max-width: 612px) {
+    body {
+        #sect1 {
+            img.image {
+                width: 22vw;
+                height: 22vw;
+            }
+        }
+    }
+}
+@media screen and (max-width: 535px) {
+    body {
+        height: 500px;
+        #sect1 {
+            margin-top: 333px;
+            img.image {
+                width: 21vw;
+                height: 21vw;
+            }
+        }
+    }
+}
+@media screen and (max-width: 476px) {
+    body {
+        #sect1 {
+            img.image {
+                width: 20vw;
+                height: 20vw;
+            }
+        }
+    }
+}
+@media screen and (max-width: 428px) {
+    body {
+        #sect1 {
+            img.image {
+                width: 19vw;
+                height: 19vw;
+            }
+        }
+    }
+}
+@media screen and (max-width: 390px) {
+    body {
+        #sect1 {
+            img.image {
+                width: 18vw;
+                height: 18vw;
+            }
+        }
     }
 }
