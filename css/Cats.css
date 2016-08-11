@@ -1,0 +1,70 @@
+@import url(reset.css);
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poiret One', cursive;
+  width: auto; }
+  body header {
+    padding-top: 30px;
+    font-size: 30px;
+    color: black;
+    padding-bottom: 30px; }
+  body #sect1 {
+    border: 2px solid #000000;
+    margin: auto;
+    width: 60%;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 20px black; }
+    body #sect1 img.image {
+      height: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 25vw;
+      display: inline-block;
+      padding-top: 50px;
+      padding-left: 20px;
+      padding-right: 20px; }
+    body #sect1 #thumbform {
+      padding-top: 20px; }
+      body #sect1 #thumbform #thumb1 {
+        margin-right: 17%;
+        border-radius: 50%;
+        background-color: #1edd00;
+        border-width: 0;
+        font-size: 50px; }
+      body #sect1 #thumbform #thumb2 {
+        margin-left: 17%;
+        border-radius: 50%;
+        background-color: #1edd00;
+        border-width: 0;
+        font-size: 50px; }
+    body #sect1 #refresh {
+      border-radius: 50%;
+      border-width: 0;
+      font-size: 20px; }
+    body #sect1 hr {
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    body #sect1 p {
+      margin: 0 25%; }
+
+/* --------- PHONE ---------- */
+/*
+@media screen and (max-width: 1143px) {
+
+  img.image {
+    width: 200px;
+    height: 200px;
+  }
+
+}
+*/
+@media screen and (max-width: 856px) {
+  img.image {
+    width: 20vw;
+    height: 20vw; } }
+
+/*# sourceMappingURL=Cats.css.map */
