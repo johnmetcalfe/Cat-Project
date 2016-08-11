@@ -2,7 +2,7 @@ img.image {
   height: 300px;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  width: 25vw;
   display: inline-block;
   padding-top: 50px;
   padding-left: 20px;
@@ -18,11 +18,14 @@ body{
     width: auto;
 }
 
-h1 {
+header {
   padding-top: 30px;
   font-size: 30px;
   color: black;
+  padding-bottom: 30px;
 }
+
+
 
 p {
 
@@ -38,7 +41,7 @@ hr {
 }
 
 #thumb1 {
-  margin-right: 20%;
+  margin-right: 17%;
   border-radius: 50%;
   background-color: green;
   border-width: 0px;
@@ -46,7 +49,7 @@ hr {
 }
 
 #thumb2 {
-  margin-left: 20%;
+  margin-left: 17%;
   border-radius: 50%;
   background-color: green;
   border-width: 0px;
@@ -60,7 +63,7 @@ hr {
 #sect1 {
   border: 2px solid black;
   margin: auto;
-  width: 800px;
+  width: 60%;
   padding-bottom: 50px;
   border-radius: 10px;
   background-color: white;
@@ -74,7 +77,21 @@ hr {
 }
 
 /* --------- PHONE ---------- */
+/*
+@media screen and (max-width: 1143px) {
 
-@media vpw <= 375px {
+  img.image {
+    width: 200px;
+    height: 200px;
+  }
+
+}
+*/
+@media screen and (max-width: 856px) {
+
+  img.image {
+    width: 20vw;
+    height: 20vw;
+  }
 
 }
