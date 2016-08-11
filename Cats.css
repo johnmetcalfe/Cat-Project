@@ -1,0 +1,80 @@
+img.image {
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  display: inline-block;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+body{
+  text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poiret One', cursive;
+    width: auto;
+}
+
+h1 {
+  padding-top: 30px;
+  font-size: 30px;
+  color: black;
+}
+
+p {
+
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#thumb1 {
+  margin-right: 20%;
+  border-radius: 50%;
+  background-color: green;
+  border-width: 0px;
+  font-size: 50px;
+}
+
+#thumb2 {
+  margin-left: 20%;
+  border-radius: 50%;
+  background-color: green;
+  border-width: 0px;
+  font-size: 50px;
+}
+
+#thumbform {
+  padding-top: 20px;
+}
+
+#sect1 {
+  border: 2px solid black;
+  margin: auto;
+  width: 800px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 20px black;
+}
+
+#refresh {
+  border-radius: 50%;
+  border-width: 0px;
+  font-size: 20px;
+}
+
+/* --------- PHONE ---------- */
+
+@media vpw <= 375px {
+
+}
