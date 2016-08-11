@@ -72,11 +72,9 @@ body {
 @media screen and (max-width: 535px) {
   body {
     height: 500px; }
-    body #sect1 {
-      margin-top: 333px; }
-      body #sect1 img.image {
-        width: 21vw;
-        height: 21vw; } }
+    body #sect1 img.image {
+      width: 21vw;
+      height: 21vw; } }
 @media screen and (max-width: 476px) {
   body #sect1 img.image {
     width: 20vw;
