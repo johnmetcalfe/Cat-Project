@@ -15,9 +15,12 @@ body {
     margin: auto;
     width: 60%;
     padding-bottom: 50px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0 0 20px black; }
+    box-shadow: 0 0 30px black; }
     body #sect1 img.image {
       height: 25vw;
       margin-left: auto;
@@ -31,6 +34,9 @@ body {
       padding-top: 20px; }
       body #sect1 #thumbform #thumb1 {
         margin-right: 17%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
         border-radius: 50%;
         background-color: #1edd00;
         border-width: 0;
@@ -42,6 +48,9 @@ body {
         outline-style: none; }
       body #sect1 #thumbform #thumb2 {
         margin-left: 17%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
         border-radius: 50%;
         background-color: #1edd00;
         border-width: 0;
@@ -52,6 +61,9 @@ body {
       body #sect1 #thumbform #thumb2:focus {
         outline-style: none; }
     body #sect1 #refresh {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
       border-radius: 50%;
       border-width: 0;
       font-size: 1.5vw;
