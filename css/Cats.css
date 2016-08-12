@@ -36,7 +36,8 @@ body {
         border-width: 0;
         font-size: 3vw; }
       body #sect1 #thumbform #thumb1:hover {
-        background-color: #D3D3D3; }
+        background-color: #D3D3D3;
+        cursor: pointer; }
       body #sect1 #thumbform #thumb2 {
         margin-left: 17%;
         border-radius: 50%;
@@ -44,12 +45,17 @@ body {
         border-width: 0;
         font-size: 3vw; }
       body #sect1 #thumbform #thumb2:hover {
-        background-color: #D3D3D3; }
+        background-color: #D3D3D3;
+        cursor: pointer; }
     body #sect1 #refresh {
       border-radius: 50%;
       border-width: 0;
       font-size: 20px;
       background-color: #D3D3D3; }
+    body #sect1 #refresh:hover {
+      background-color: #000000;
+      color: #FFFFFF;
+      cursor: pointer; }
     body #sect1 hr {
       margin-top: 10px;
       margin-bottom: 10px; }

@@ -2,6 +2,7 @@
 $green: #1edd00;
 $black: #000000;
 $grey: #D3D3D3;
+$white: #FFFFFF;
 body {
     text-align: center;
     margin: 0;
@@ -43,6 +44,7 @@ body {
             }
             #thumb1:hover {
                 background-color: $grey;
+                cursor: pointer;
             }
             #thumb2 {
                 margin-left: 17%;
@@ -53,6 +55,7 @@ body {
             }
             #thumb2:hover {
                 background-color: $grey;
+                cursor: pointer;
             }
         }
         #refresh {
@@ -60,6 +63,11 @@ body {
             border-width: 0;
             font-size: 20px;
             background-color: $grey;
+        }
+        #refresh:hover {
+            background-color: $black;
+            color: $white;
+            cursor: pointer;
         }
         hr {
             margin-top: 10px;
