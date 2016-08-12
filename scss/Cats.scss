@@ -3,11 +3,12 @@ $green: #1edd00;
 $black: #000000;
 $grey: #D3D3D3;
 $white: #FFFFFF;
+$font: 'Poiret One', cursive;
 body {
     text-align: center;
     margin: 0;
     padding: 0;
-    font-family: 'Poiret One', cursive;
+    font-family: $font;
     width: auto;
     header {
         padding-top: 30px;
@@ -46,6 +47,9 @@ body {
                 background-color: $grey;
                 cursor: pointer;
             }
+            #thumb1:focus {
+              outline-style: none;
+            }
             #thumb2 {
                 margin-left: 17%;
                 border-radius: 50%;
@@ -56,6 +60,9 @@ body {
             #thumb2:hover {
                 background-color: $grey;
                 cursor: pointer;
+            }
+            #thumb2:focus {
+              outline-style: none;
             }
         }
         #refresh {
@@ -68,6 +75,9 @@ body {
             background-color: $black;
             color: $white;
             cursor: pointer;
+        }
+        #refresh:focus {
+          outline-style: none;
         }
         hr {
             margin-top: 10px;

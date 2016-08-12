@@ -3,7 +3,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   width: auto; }
   body header {
     padding-top: 30px;
@@ -38,6 +38,8 @@ body {
       body #sect1 #thumbform #thumb1:hover {
         background-color: #D3D3D3;
         cursor: pointer; }
+      body #sect1 #thumbform #thumb1:focus {
+        outline-style: none; }
       body #sect1 #thumbform #thumb2 {
         margin-left: 17%;
         border-radius: 50%;
@@ -47,6 +49,8 @@ body {
       body #sect1 #thumbform #thumb2:hover {
         background-color: #D3D3D3;
         cursor: pointer; }
+      body #sect1 #thumbform #thumb2:focus {
+        outline-style: none; }
     body #sect1 #refresh {
       border-radius: 50%;
       border-width: 0;
@@ -56,6 +60,8 @@ body {
       background-color: #000000;
       color: #FFFFFF;
       cursor: pointer; }
+    body #sect1 #refresh:focus {
+      outline-style: none; }
     body #sect1 hr {
       margin-top: 10px;
       margin-bottom: 10px; }
