@@ -64,11 +64,15 @@ body {
             }
         }
         #refresh {
-            @include border-radius(50%);
+            @include border-radius(100%);
             border-width: 0;
             font-size: 1.5vw;
+            width: 3vw;
+            height: 3vw;
             background-color: $grey;
+            text-align: center;
         }
+        @import "_animation";
         #refresh:hover {
             background-color: $black;
             color: $white;
